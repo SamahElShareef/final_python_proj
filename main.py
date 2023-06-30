@@ -50,9 +50,6 @@ student_number = input("Enter the student number: ")
 student = Student(student_name, student_age, student_number, courses_list)
 
 
-# def _init_(self):
-# pass
-
 # TODO 5 define a method to enroll new course to student courses list
 def enroll_course(self, course_name, course_mark):
     course = Course(course_name, course_mark)
